@@ -1,12 +1,12 @@
 import XCTest
-@testable import MyModule
+@testable import Rest
 
-final class MyModuleTests: XCTestCase {
+final class RestTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(MyModule().text, "Hello, World!")
+        XCTAssertEqual(Rest().text, "Hello, World!")
     }
 
     static var allTests = [
